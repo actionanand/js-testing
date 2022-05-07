@@ -41,11 +41,11 @@ app.get('/', (req, res) => {
         <form action="/calculate" method="POST">
           <div>
             <label for="num1">First Number</label>
-            <input id="num1" name="num1" type="numeric">
+            <input id="num1" name="num1" type="number">
           </div>
           <div>
             <label for="num2">Second Number</label>
-            <input id="num2" name="num2" type="numeric">
+            <input id="num2" name="num2" type="number">
           </div>
           <button>Calculate</button>
         </form>
