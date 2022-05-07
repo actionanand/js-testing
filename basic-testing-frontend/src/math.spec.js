@@ -30,3 +30,20 @@ it('should yield correct sum, if numeric value is as string', () => {
 
   expect(result).toBe(expectedVal);
 });
+
+it('should yield 0, if empty array is passed.', () => {
+  const inputArray = [];
+  const expectedVal = 0;
+
+  const result = add(inputArray);
+
+  expect(result).toBe(expectedVal);
+});
+
+it('should throw an error, if no value is passed.', () => {
+  const resultFn = () => {
+    add();
+  };
+
+  expect(resultFn).toThrow();
+});
