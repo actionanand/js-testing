@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "Anand Raja",
