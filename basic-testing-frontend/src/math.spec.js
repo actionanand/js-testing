@@ -47,3 +47,15 @@ it('should throw an error, if no value is passed.', () => {
 
   expect(resultFn).toThrow();
 });
+
+it('should throw an error, if multiple arguments provided instead of an array.',() => {
+  const num1 = 3;
+  const num2 = 7;
+
+  const resultFn = () => {
+    add(num1, num2);
+  };
+
+  expect(resultFn).toThrow(/numbers is not iterable/);
+  // expect(resultFn).not.toThrow(); // to find the error message
+});
