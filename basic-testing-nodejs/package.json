@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "vitest",
+    "coverage": "vitest run --coverage",
     "start": "node app.js"
   },
   "keywords": [],
@@ -14,6 +15,7 @@
     "express": "^4.17.3"
   },
   "devDependencies": {
+    "c8": "^7.11.2",
     "vitest": "^0.9.0"
   }
 }
