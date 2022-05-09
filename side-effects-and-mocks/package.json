@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "vitest --run --reporter verbose",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "Anand Raja",

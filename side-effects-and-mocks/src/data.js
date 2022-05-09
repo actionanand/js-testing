@@ -1,7 +1,10 @@
 import writeData from './util/io.js';
 
 export function generateReportData(logFn) {
-  const data = 'Some dummy data for this demo app';
+  const todaySdate = "Today's date is " + new Date().toUTCString().slice(5, 16) + '.';
+  const todayStime = 'And local time is ' + new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true }) + '.';
+  const data = `Hello world! ${todaySdate} ${todayStime}`;
+  
   if (logFn) {
     logFn(data);
   }
