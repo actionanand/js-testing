@@ -9,12 +9,6 @@
 
 # dependencies
 /node_modules
-/basic-testing-frontend/node_modules
-/basic-testing-nodejs/node_modules
-/basic-testing-nodejs-esmodules/node_modules
-/async-hooks-testing/node_modules
-/side-effects-and-mocks/node_modules
-
 
 # profiling files
 chrome-profiler-events*.json
