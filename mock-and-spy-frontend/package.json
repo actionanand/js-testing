@@ -1,0 +1,22 @@
+{
+  "name": "mock-and-spy-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1",
+    "test": "vitest --run --reporter verbose",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "Anand Raja",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.0"
+  },
+  "devDependencies": {
+    "c8": "^7.11.2",
+    "happy-dom": "^2.55.0",
+    "vitest": "^0.9.3"
+  }
+}
