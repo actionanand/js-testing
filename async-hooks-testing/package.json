@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "vitest",
+    "test": "vitest --run --reporter verbose",
     "coverage": "vitest run --coverage"
   },
   "keywords": [],
